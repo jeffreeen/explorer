@@ -1,0 +1,45 @@
+.about {
+  margin-bottom: 56px;
+}
+
+.about__container {
+  display: flex;
+}
+
+.about__img {
+  max-width: 490px;
+  max-height: 505px;
+}
+
+.about__basic {
+  background: url(../img/bgabcomp.png) no-repeat;
+  width: 68.8%;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: -138px;
+  margin-top: 97px;
+  padding: 75px 81px 66px;
+  overflow: hidden;
+}
+
+.title--dark {
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.about__basic p {
+  color: #000;
+  max-height: 156px;
+  margin-bottom: 42px;
+  margin-top: 45px;
+  max-width: 503px;
+  line-height: 1.62;
+  letter-spacing: 0.1px;
+  display:flex;
+  overflow: hidden;
+}
+

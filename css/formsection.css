@@ -1,0 +1,117 @@
+.formsection {
+  background: #F4F5F5;
+  padding-top: 71px;
+  padding-bottom: 96px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+.title--fz48 {
+  font-size: 48px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  padding: 20px 30px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+.form__input--textarea {
+  height: 222px;
+  margin-top: 12px;
+}
+
+.form__input:last-child {
+  margin-right: 0px;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.form__title-tags {
+  font-size: 18px;
+  line-height: 21px;
+  color: #1A1B1E;
+  width: 38.3%;
+  margin-top: 15px;
+}
+
+.tags {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 52%;
+}
+
+.tags__item {
+  margin-top: 2px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+}
+
+.tags__item:last-child {
+ flex: 1;
+}
+
+.tags__elem {
+  cursor: pointer;
+}
+
+.tags__checkbox {
+  display: none;
+}
+
+.tags__checkbox:checked ~ .tags__tag {
+  background: #B9EAE4;
+}
+
+.form__buttons {
+  align-self: flex-end;
+  display: flex;
+}
+
+.button--reset {
+  background: #8E8E8E;
+  transition: 0.5s;
+  border: none;
+  margin-right: 17px;
+  color: #fff;
+}
+
+.button--reset:hover {
+  background: #2B2B2B;
+}
+
+.button--send {
+  border: none;
+  color: #fff;
+}

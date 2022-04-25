@@ -1,0 +1,196 @@
+.footer--bg {
+  background: #001821;
+}
+
+.footer__container {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  padding-top: 37px;
+  padding-bottom: 35px;
+}
+
+.menu__link {
+  transition: all 0.5s;
+}
+
+.menu__link:hover {
+  color: #DA0100;
+}
+
+.socials {
+  display: flex;
+  max-width: 174px;
+  justify-content: space-between;
+  margin-right: 74px;
+  margin-left: auto;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+.socials__item--telegram .socials__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -122px -10px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.socials__item--telegram .socials__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -122px -66px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.socials__item--telegram:hover .socials__link::before {
+  opacity: 0;
+}
+
+.socials__item--telegram:hover .socials__link::after {
+  opacity:1 ;
+}
+
+.socials__item--vk .socials__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -10px -122px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.socials__item--vk .socials__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -66px -122px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.socials__item--vk:hover .socials__link::before {
+  opacity: 0;
+}
+
+.socials__item--vk:hover .socials__link::after {
+  opacity:1 ;
+}
+
+.socials__item--fb .socials__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -10px -10px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.socials__item--fb .socials__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -66px -10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.socials__item--fb:hover .socials__link::before {
+  opacity: 0;
+}
+
+.socials__item--fb:hover .socials__link::after {
+  opacity:1 ;
+}
+
+.socials__item--inst .socials__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -10px -66px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.socials__item--inst .socials__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/sprites-soc.png) -66px -66px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.socials__item--inst:hover .socials__link::before {
+  opacity: 0;
+}
+
+.socials__item--inst:hover .socials__link::after {
+  opacity:1 ;
+}
+
+.footer__container .contacts {
+  margin-left: 0;
+} 
+
+.contacts__text {
+  font-size: 11px;
+  color: #9A9A9A;
+  margin-bottom: 6px;
+}

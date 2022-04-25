@@ -1,0 +1,44 @@
+.advert {
+  margin-bottom: 251px;
+}
+
+.advert__container {
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  min-height: 425px;
+}
+
+.advert__content {
+  width: 45%;
+}
+
+.advert__title {
+  font-size: 72px;
+  line-height: 99px;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+
+.advert__text {
+  font-size: 18px;
+  margin-bottom: 33px;
+  line-height: 1;
+}
+
+.button {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color:  #DA0100;
+  border: none;
+}

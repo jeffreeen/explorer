@@ -1,0 +1,28 @@
+.separate {
+  height: 363px;
+  width: 100%;
+  background: url(../img/separatorbg.png) center center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.separate__content {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.separate__title {
+  font-size: 48px;
+  line-height: 65px;
+  max-width: 595px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 22px;
+
+}
+
+.separate__photo  {
+  margin-left: 20px;
+}
